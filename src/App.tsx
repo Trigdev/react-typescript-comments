@@ -10,7 +10,7 @@ const App: FC = (): ReactElement => {
   return (
     <>
       <div className="container-fluid mt-auto">
-        <h2 className="h2 text-center my-4 text-light"> COMMENTIFY </h2>
+        <h2 className="h2 text-center my-4 text-dark"> COMMENTIFY </h2>
         <Comment comments={comments} />
       </div>
     </>
